@@ -1,5 +1,5 @@
 # --- Source
-DOT_FILES=/Users/eli/code/dot-files
+DOT_FILES="$HOME/code/bash-profile"
 source $DOT_FILES/.zshenv
 source $DOT_FILES/.aliases
 source $DOT_FILES/.functions
