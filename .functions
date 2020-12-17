@@ -1,0 +1,13 @@
+function save-ssh-host () {
+  if [ $# -ne 4 ]; then
+    echo "Invalid number of arguments"
+    echo "save-ssh-host [hostname] [host] [identity-file] [username]"
+    return 1
+  fi
+  echo "" >> ~/.ssh/config
+  echo "Host $1" >> ~/.ssh/config
+  echo "    HostName $2" >> ~/.ssh/config
+  echo "    IdentityFile $3" >> ~/.ssh/config
+  echo "    User $4" >> ~/.ssh/config
+  tail ~/.ssh/config
+}
