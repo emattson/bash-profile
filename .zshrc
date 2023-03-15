@@ -4,4 +4,4 @@ source $DOT_FILES/.zshenv
 source $DOT_FILES/.aliases
 source $DOT_FILES/.functions
 
-# ======== Custom to for this computer ========
+# ======== Custom to this computer ========
